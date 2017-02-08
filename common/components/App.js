@@ -5,7 +5,7 @@ import { StyleSheet, css } from 'aphrodite'
 
 const App = ({ children }) => (
   <div className={css(styles.root)}>
-    <Helmet title='React Server' titleTemplate='%s - Production Build Test' />
+    <Helmet title='React Server Test' titleTemplate='%s - Production Build' />
     <h1 className={css(styles.title)}>Live Server Testing</h1>
     <Nav />
     {children}
