@@ -10,14 +10,14 @@ const App = ({ children }) => (
     <Nav />
     {children}
     <footer className={css(styles.footer)}>
-      React Production Server Testing on Digital Ocean. Domain Name Servers at AWSroute53.
+      React Production Server Testing on Digital Ocean. <br>Domain Name Servers at AWS Route53.</br>
     </footer>
   </div>
 )
 
 const styles = StyleSheet.create({
   root: {
-    maxWidth: 700,
+    maxWidth: 1280,
     color: '#000',
     margin: '2rem auto',
     padding: '0 1rem'
