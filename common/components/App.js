@@ -5,13 +5,12 @@ import { StyleSheet, css } from 'aphrodite'
 
 const App = ({ children }) => (
   <div className={css(styles.root)}>
-    <Helmet title='React Production Starter' titleTemplate='%s - React Production Starter' />
+    <Helmet title='React Server' titleTemplate='%s - Production Build Test' />
     <h1 className={css(styles.title)}>Live Server Testing</h1>
     <Nav />
     {children}
-    <footer className={css(styles.footer)}>
-      React Production Server Testing on Digital Ocean. Domain Name Servers at AWSRoute53.
-    </footer>
+    <h3 className={css(styles.footer)}>Production Ready Server Testing on Digital Ocean.</h3>
+    <h5 className={css(styles.footer)}>Domain Name Servers at AWSRoute53.</h5>
   </div>
 )
 
@@ -24,7 +23,7 @@ const styles = StyleSheet.create({
   },
   title: {
     color: '#000',
-    maxWidth: 300,
+    maxWidth: 500,
     fontWeight: 'bold',
     fontSize: 56
   },
