@@ -6,11 +6,11 @@ import { StyleSheet, css } from 'aphrodite'
 const App = ({ children }) => (
   <div className={css(styles.root)}>
     <Helmet title='React Server Test' titleTemplate='%s - React Server Test' />
-    <h1 className={css(styles.title)}>Live Server Test</h1>
+    <h1 className={css(styles.title)}>Live Server Testing</h1>
     <Nav />
     {children}
     <footer className={css(styles.footer)}>
-      React Production Server Testing on Digital Ocean. <br>Domain Name Servers at AWS Route53.</br>
+      React Production Server Testing on Digital Ocean. <br>Domain Name Servers at AWSRoute53.</br>
     </footer>
   </div>
 )
