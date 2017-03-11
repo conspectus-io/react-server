@@ -8,11 +8,11 @@ import data from '../data'
 const Home = (props) => (
   <div>
 
-    <h2 className={css(styles.header)}>About</h2>
+    <h2 className={css(styles.header)}>Details</h2>
     <p className={css(styles.lead)}>
-      This is an example react application (master-detail feed) with isomorphic rendering, async react-router routes, async redux reducers, async data fetching, and code-splitting.
+      DigitalOcean Droplet: yakketyServ; StaticIP: 45.55.100.155; Port: 80; DNS: AWS Route53; Domains: nvizn.io & nvizn.org
     </p>
-    <h2 className={css(styles.header)}>Motivation</h2>
+    <h2 className={css(styles.header)}>About</h2>
     <p className={css(styles.lead)}>
       The file size of isomorphic React apps can quickly get out of hand. Many isomorphic starter kits look awesome to begin with but yield a several megabyte javascript
       file for the client to download. This project aims to demonstrate some possible solutions.
