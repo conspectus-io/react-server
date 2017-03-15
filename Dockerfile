@@ -1,6 +1,6 @@
-FROM mhart/alpine-node:6.2.1
+FROM ubuntu:yakkety
 WORKDIR /src
 ADD . .
-RUN npm install
+RUN npm run start:prod
 EXPOSE 80
 CMD ["npm", "run", "start:prod"]
